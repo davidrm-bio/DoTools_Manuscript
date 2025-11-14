@@ -1,2 +1,3 @@
-# DoTools_Manuscript
-Script use to generated the figures for the manuscript
+# DoTools Manuscript
+
+This repository compiles the scripts and figures generated for the manuscript.
