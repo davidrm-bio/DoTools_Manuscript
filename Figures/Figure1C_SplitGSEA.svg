@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="725.664375pt" height="296.01125pt" viewBox="0 0 725.664375 296.01125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2025-08-12T11:48:17.275729</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 296.01125 
+L 725.664375 296.01125 
+L 725.664375 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 248.743125 247.276875 
+L 529.543125 247.276875 
+L 529.543125 28.396875 
+L 248.743125 28.396875 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 382.123125 245.192304 
+L 331.588175 245.192304 
+L 331.588175 228.515732 
+L 382.123125 228.515732 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 382.123125 224.346589 
+L 331.588175 224.346589 
+L 331.588175 207.670018 
+L 382.123125 207.670018 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 382.123125 203.500875 
+L 331.588175 203.500875 
+L 331.588175 186.824304 
+L 382.123125 186.824304 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 382.123125 182.655161 
+L 331.588175 182.655161 
+L 331.588175 165.978589 
+L 382.123125 165.978589 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 382.123125 161.809446 
+L 331.588175 161.809446 
+L 331.588175 145.132875 
+L 382.123125 145.132875 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 382.123125 140.963732 
+L 313.336364 140.963732 
+L 313.336364 124.287161 
+L 382.123125 124.287161 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 382.123125 120.118018 
+L 313.336364 120.118018 
+L 313.336364 103.441446 
+L 382.123125 103.441446 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 382.123125 99.272304 
+L 313.336364 99.272304 
+L 313.336364 82.595732 
+L 382.123125 82.595732 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 382.123125 78.426589 
+L 292.27517 78.426589 
+L 292.27517 61.750018 
+L 382.123125 61.750018 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 382.123125 57.580875 
+L 241.723125 57.580875 
+L 241.723125 40.904304 
+L 382.123125 40.904304 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 396.163125 245.192304 
+L 446.698075 245.192304 
+L 446.698075 228.515732 
+L 396.163125 228.515732 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 396.163125 224.346589 
+L 446.698075 224.346589 
+L 446.698075 207.670018 
+L 396.163125 207.670018 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 396.163125 203.500875 
+L 446.698075 203.500875 
+L 446.698075 186.824304 
+L 396.163125 186.824304 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 396.163125 182.655161 
+L 446.698075 182.655161 
+L 446.698075 165.978589 
+L 396.163125 165.978589 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 396.163125 161.809446 
+L 446.698075 161.809446 
+L 446.698075 145.132875 
+L 396.163125 145.132875 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 396.163125 140.963732 
+L 464.949886 140.963732 
+L 464.949886 124.287161 
+L 396.163125 124.287161 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 396.163125 120.118018 
+L 464.949886 120.118018 
+L 464.949886 103.441446 
+L 396.163125 103.441446 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 396.163125 99.272304 
+L 464.949886 99.272304 
+L 464.949886 82.595732 
+L 396.163125 82.595732 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 396.163125 78.426589 
+L 486.01108 78.426589 
+L 486.01108 61.750018 
+L 396.163125 61.750018 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 396.163125 57.580875 
+L 536.563125 57.580875 
+L 536.563125 40.904304 
+L 396.163125 40.904304 
+z
+" clip-path="url(#p7339ed664e)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="me248550515" d="M 0 0 
+L 0 5 
+" style="stroke: #000000"/>
+      </defs>
+      <g>
+       <use xlink:href="#me248550515" x="286.375723" y="247.276875" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="286.375723" y="264.895" transform="rotate(-0 286.375723 264.895)">−1.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#me248550515" x="337.759424" y="247.276875" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="337.759424" y="264.895" transform="rotate(-0 337.759424 264.895)">−0.5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#me248550515" x="389.143125" y="247.276875" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="389.143125" y="264.895" transform="rotate(-0 389.143125 264.895)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#me248550515" x="440.526826" y="247.276875" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="440.526826" y="264.895" transform="rotate(-0 440.526826 264.895)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#me248550515" x="491.910527" y="247.276875" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="491.910527" y="264.895" transform="rotate(-0 491.910527 264.895)">1.0</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="389.143125" y="285.067812" transform="rotate(-0 389.143125 285.067812)">Combined Score</text>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="529.543125" y="279.50875" transform="rotate(-0 529.543125 279.50875)">1e6</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="LineCollection_1">
+    <path d="M 389.143125 257.699732 
+L 389.143125 38.819732 
+" clip-path="url(#p7339ed664e)" style="fill: none; stroke: #000000"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 248.743125 247.276875 
+L 529.543125 247.276875 
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 233.35283)">Regulation of histamine secretion by mast cell</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 246.883955)">(go:1903593)</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="403.183125" y="219.272679" transform="rotate(-0 403.183125 219.272679)">B-wich complex (go:0110016)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="403.183125" y="198.426964" transform="rotate(-0 403.183125 198.426964)">Regulation of torc2 signaling (go:1903939)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="403.183125" y="177.58125" transform="rotate(-0 403.183125 177.58125)">Mrna 5'-phosphatase activity (go:0140818)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 149.969973)">Regulation of t-helper cell differentiation</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 163.501098)">(go:0045622)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 129.124259)">Establishment of golgi localization</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 142.655384)">(go:0051683)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 108.278545)">T-helper 17 cell lineage commitment</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 121.80967)">(go:0072540)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="403.183125" y="94.198393" transform="rotate(-0 403.183125 94.198393)">Cytolytic granule (go:0044194)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 66.587116)">Peptidyl-lysine monomethylation</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 80.118241)">(go:0018026)</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 45.741402)">T-helper cell lineage commitment</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(403.183125 59.272527)">(go:0002295)</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="375.103125" y="240.118393" transform="rotate(-0 375.103125 240.118393)">Regulation of torc2 signaling (go:1903939)</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(95.465625 212.507116)">Regulation of t-helper cell differentiation</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(284.056875 226.038241)">(go:0045622)</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(202.963125 191.661402)">5'-(n(7)-methylguanosine</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(7.2 205.192527)">5'-triphospho)-[mrna] hydrolase activity (go:0140933)</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(59.821875 170.815687)">Regulation of histamine secretion by mast cell</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(284.056875 184.346812)">(go:1903593)</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="375.103125" y="156.735536" transform="rotate(-0 375.103125 156.735536)">B-wich complex (go:0110016)</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="375.103125" y="135.889821" transform="rotate(-0 375.103125 135.889821)">Cytolytic granule (go:0044194)</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(141.343125 108.278545)">Establishment of golgi localization</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(284.056875 121.80967)">(go:0051683)</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(128.50125 87.43283)">T-helper 17 cell lineage commitment</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(284.056875 100.963955)">(go:0072540)</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(151.044375 66.587116)">Peptidyl-lysine monomethylation</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(284.056875 80.118241)">(go:0018026)</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(149.3775 45.741402)">T-helper cell lineage commitment</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(284.056875 59.272527)">(go:0002295)</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="389.143125" y="22.396875" transform="rotate(-0 389.143125 22.396875)">Top 10 GO Terms in each Condition</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7339ed664e">
+   <rect x="248.743125" y="28.396875" width="280.8" height="218.88"/>
+  </clipPath>
+ </defs>
+</svg>

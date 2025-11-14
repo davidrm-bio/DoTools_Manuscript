@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="549.015075pt" height="418.32pt" viewBox="0 0 549.015075 418.32" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2025-11-11T14:13:55.300019</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 418.32 
+L 549.015075 418.32 
+L 549.015075 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 42.475913 370.846563 
+L 506.539162 370.846563 
+L 506.539162 27.9375 
+L 42.475913 27.9375 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 262.905956 367.580762 
+L 179.389527 367.580762 
+L 179.389527 341.454357 
+L 262.905956 341.454357 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 262.905956 334.922756 
+L 179.389527 334.922756 
+L 179.389527 308.796351 
+L 262.905956 308.796351 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 262.905956 302.26475 
+L 179.389527 302.26475 
+L 179.389527 276.138345 
+L 262.905956 276.138345 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 262.905956 269.606744 
+L 179.389527 269.606744 
+L 179.389527 243.480339 
+L 262.905956 243.480339 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 262.905956 236.948738 
+L 179.389527 236.948738 
+L 179.389527 210.822333 
+L 262.905956 210.822333 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 262.905956 204.290732 
+L 149.225728 204.290732 
+L 149.225728 178.164327 
+L 262.905956 178.164327 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 262.905956 171.632726 
+L 149.225728 171.632726 
+L 149.225728 145.506321 
+L 262.905956 145.506321 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 262.905956 138.97472 
+L 149.225728 138.97472 
+L 149.225728 112.848315 
+L 262.905956 112.848315 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 262.905956 106.316714 
+L 114.419012 106.316714 
+L 114.419012 80.19031 
+L 262.905956 80.19031 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 262.905956 73.658708 
+L 30.874331 73.658708 
+L 30.874331 47.532304 
+L 262.905956 47.532304 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #f4a460; opacity: 0.3"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 286.109119 367.580762 
+L 369.625548 367.580762 
+L 369.625548 341.454357 
+L 286.109119 341.454357 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 286.109119 334.922756 
+L 369.625548 334.922756 
+L 369.625548 308.796351 
+L 286.109119 308.796351 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 286.109119 302.26475 
+L 369.625548 302.26475 
+L 369.625548 276.138345 
+L 286.109119 276.138345 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 286.109119 269.606744 
+L 369.625548 269.606744 
+L 369.625548 243.480339 
+L 286.109119 243.480339 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 286.109119 236.948738 
+L 369.625548 236.948738 
+L 369.625548 210.822333 
+L 286.109119 210.822333 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 286.109119 204.290732 
+L 399.789347 204.290732 
+L 399.789347 178.164327 
+L 286.109119 178.164327 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 286.109119 171.632726 
+L 399.789347 171.632726 
+L 399.789347 145.506321 
+L 286.109119 145.506321 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 286.109119 138.97472 
+L 399.789347 138.97472 
+L 399.789347 112.848315 
+L 286.109119 112.848315 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 286.109119 106.316714 
+L 434.596063 106.316714 
+L 434.596063 80.19031 
+L 286.109119 80.19031 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 286.109119 73.658708 
+L 518.140744 73.658708 
+L 518.140744 47.532304 
+L 286.109119 47.532304 
+z
+" clip-path="url(#p9bc88ec1d7)" style="fill: #4169e1; opacity: 0.3"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="md55338da67" d="M 0 0 
+L 0 5 
+" style="stroke: #000000"/>
+      </defs>
+      <g>
+       <use xlink:href="#md55338da67" x="104.669309" y="370.846563" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'Helvetica'; text-anchor: middle" x="104.669309" y="387.954688" transform="rotate(-0 104.669309 387.954688)">−1.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#md55338da67" x="189.588423" y="370.846563" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'Helvetica'; text-anchor: middle" x="189.588423" y="387.954688" transform="rotate(-0 189.588423 387.954688)">−0.5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#md55338da67" x="274.507538" y="370.846563" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'Helvetica'; text-anchor: middle" x="274.507538" y="387.954688" transform="rotate(-0 274.507538 387.954688)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#md55338da67" x="359.426652" y="370.846563" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'Helvetica'; text-anchor: middle" x="359.426652" y="387.954688" transform="rotate(-0 359.426652 387.954688)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#md55338da67" x="444.345766" y="370.846563" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'Helvetica'; text-anchor: middle" x="444.345766" y="387.954688" transform="rotate(-0 444.345766 387.954688)">1.0</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-weight: 700; font-size: 18px; font-family: 'Helvetica'; text-anchor: middle" x="274.507538" y="407.368125" transform="rotate(-0 274.507538 407.368125)">Combined Score</text>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="506.539162" y="402.064063" transform="rotate(-0 506.539162 402.064063)">1e6</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="LineCollection_1">
+    <path d="M 274.507538 387.175565 
+L 274.507538 44.266503 
+" clip-path="url(#p9bc88ec1d7)" style="fill: none; stroke: #000000"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 42.475913 370.846563 
+L 506.539162 370.846563 
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="357.55506" transform="rotate(-0 297.7107 357.55506)">Regulation of histamine secretion by mast cell</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="324.927054" transform="rotate(-0 297.7107 324.927054)">B-wich complex</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="292.239048" transform="rotate(-0 297.7107 292.239048)">Regulation of torc2 signaling</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="259.575417" transform="rotate(-0 297.7107 259.575417)">Mrna 5'-phosphatase activity</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="226.923036" transform="rotate(-0 297.7107 226.923036)">Regulation of t-helper cell differentiation</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="194.26503" transform="rotate(-0 297.7107 194.26503)">Establishment of golgi localization</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="161.560149" transform="rotate(-0 297.7107 161.560149)">T-helper 17 cell lineage commitment</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="129.005268" transform="rotate(-0 297.7107 129.005268)">Cytolytic granule</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="96.285387" transform="rotate(-0 297.7107 96.285387)">Peptidyl-lysine monomethylation</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: start" x="297.7107" y="63.586131" transform="rotate(-0 297.7107 63.586131)">T-helper cell lineage commitment</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="251.304375" y="357.55506" transform="rotate(-0 251.304375 357.55506)">Regulation of torc2 signaling</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="251.304375" y="324.897054" transform="rotate(-0 251.304375 324.897054)">Regulation of t-helper cell differentiation</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'" transform="translate(118.295625 285.712923)">5'-(n(7)-methylguanosine</text>
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'" transform="translate(44.945625 298.866423)">5'-triphospho)-[mrna] hydrolase activity</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="251.304375" y="259.581042" transform="rotate(-0 251.304375 259.581042)">Regulation of histamine secretion by mast cell</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="251.304375" y="226.953036" transform="rotate(-0 251.304375 226.953036)">B-wich complex</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="251.304375" y="194.32128" transform="rotate(-0 251.304375 194.32128)">Cytolytic granule</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="251.304375" y="161.607024" transform="rotate(-0 251.304375 161.607024)">Establishment of golgi localization</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="251.304375" y="128.902143" transform="rotate(-0 251.304375 128.902143)">T-helper 17 cell lineage commitment</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="251.304375" y="96.285387" transform="rotate(-0 251.304375 96.285387)">Peptidyl-lysine monomethylation</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Helvetica'; text-anchor: end" x="251.304375" y="63.586131" transform="rotate(-0 251.304375 63.586131)">T-helper cell lineage commitment</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Helvetica'; text-anchor: middle" x="274.507538" y="21.9375" transform="rotate(-0 274.507538 21.9375)">Top 10 GO Terms in each Condition</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9bc88ec1d7">
+   <rect x="42.475913" y="27.9375" width="464.06325" height="342.909063"/>
+  </clipPath>
+ </defs>
+</svg>
