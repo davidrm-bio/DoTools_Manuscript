@@ -61,8 +61,8 @@ plt.savefig( figure_path / 'Figure1B_DotplotCelltypist.svg', bbox_inches="tight"
 
 
 # Figure 1B - Barplot cell proportions
-do.pl.cell_props(adata, 'annotation_recluster', 'condition', 'batch',
-                 transform='arcsin', figsize=(3.5, 4), cond_order=['healthy', 'disease'], legend_fontsize=10,
+do.pl.cell_composition(adata, 'annotation_recluster', 'condition', 'batch',
+                 transform='arcsin', figsize=(3.5, 4), condition_order=['healthy', 'disease'], legend_fontproperties={"size": 10},
                  title="Annotation", path=figure_path, filename="Figure1B_CellProportions.svg")
 
 # Figure 1C - 3D Dotplot
@@ -79,7 +79,7 @@ do.pl.heatmap(adata, 'annotation_recluster', ['CD14', 'CD3D', 'CD79A', 'CD8A', '
              )
 
 # Figure 1C - Barplot NKG7
-do.pl.barplot(adata, 'condition', 'NKG7', ctrl_cond='healthy', groups_cond=['disease'],
+do.pl.barplot(adata, 'condition', 'NKG7', reference='healthy', groups=['disease'],
               palette={'healthy': 'sandybrown', 'disease':'royalblue'}, path=figure_path,
               filename='Figure1C_BarplotNKG7.svg')
 
@@ -96,7 +96,7 @@ do.utility.save_rds('/Volumes/Zmm_shared/David/Papers/dotools/Objects/adata.rds'
 
 do.pl.boxplot(adata, "annotation", "RPL11", hue="condition", figsize=(6, 4),
               palette={"healthy":'sandybrown', "disease":"royalblue"}, txt_size=10, txt="",
-              ctrl_cond='healthy', groups_cond=['disease'], hue_order=['healthy', 'disease'],
+              reference='healthy', groups=['disease'], hue_order=['healthy', 'disease'],
               path=figure_path, filename='Figure1C_Boxplot_GeneAnnotationHueCondition.svg')
 
 
@@ -111,7 +111,7 @@ do.pl.split_bar_gsea(df, 'Term',  'Combined Score', 'state', 'enriched',
 
 
 # Figure 2C - ViolinPlot
-do.pl.violin(adata, 'condition', 'NKG7', ctrl_cond='healthy', groups_cond=['disease'],
+do.pl.violin(adata, 'condition', 'NKG7', reference='healthy', groups=['disease'],
               palette={'healthy': 'sandybrown', 'disease':'royalblue'}, path=figure_path,
               filename='Figure2C_ViolinNKG7.svg', scatter=True, figsize=(3, 4.2))
 
