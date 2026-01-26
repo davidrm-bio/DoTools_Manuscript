@@ -1,0 +1,291 @@
+---
+title: "DoTools.Rmd"
+author: "Mariano Ruz Jurado"
+date: "2026-01-26"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# 0. Set-up
+
+```{r Set-up, message=FALSE, warning=FALSE}
+# logging with sink
+# sink(file = "output.log", append=TRUE, split = TRUE)
+
+library(DOtools)
+
+# Additional packages
+library(tidyverse)
+library(enrichR)
+library(Seurat)
+```
+
+# 1. Figure 1 - Workflow of DoTools
+## 1.1 Figure 1A -ViolinPlots of QC metrics
+
+```{r Figure1A-ViolinPlotsofQCmetrics, eval=FALSE}
+
+base <- DOtools:::.example_10x()
+
+paths <- c(
+    file.path(base, "healthy/outs/filtered_feature_bc_matrix.h5"),
+    file.path(base, "disease/outs/filtered_feature_bc_matrix.h5")
+)
+
+SCE_obj <- DO.Import(
+    pathways = paths,
+    ids = c("healthy-1", "disease-1"),
+    DeleteDoublets = TRUE,
+    cut_mt = .05,
+    min_counts = 500,
+    min_genes = 300,
+    high_quantile = .95,
+    Seurat = TRUE
+)
+
+postfilterplots <- system.file(
+    "figures",
+    "postfilterplots-1.png",
+    package = "DOtools"
+)
+
+
+```
+```{r}
+#read in QC plot
+postfilterplots <- system.file(
+    "figures",
+    "postfilterplots-1.png",
+    package = "DOtools"
+)
+
+pQC2 <- magick::image_read(postfilterplots)
+plot(pQC2)
+```
+
+
+## 1.2 Figure 1B - UMAP splitting by condition
+```{r Figure1B-UMAPsplittingbycondition, message=FALSE, warning=FALSE}
+# Making sure we have a save folder
+base <- tempfile("my_tempdir_")
+dir.create(base)
+
+# Load object for html creation - NOTE this object is a subset of the data
+SCE_obj <- readRDS(system.file("extdata", "sce_data.rds", package = "DOtools"))
+
+
+SCE_obj <- DO.Integration(
+    sce_object = SCE_obj,
+    split_key = "orig.ident",
+    HVG = TRUE,
+    scale = TRUE,
+    pca = TRUE,
+    integration_method = "CCAIntegration"
+)
+
+DO.UMAP(
+    sce_object = SCE_obj,
+    group.by = "leiden0.3",
+    split.by = "condition",
+    legend.position = "right"
+)
+```
+## 1.3 Figure 1B - Celltypist Dotplot
+```{r Figure1B-CelltypistDotplot, message=FALSE, warning=FALSE}
+SCE_obj <- DO.CellTypist(
+    sce_object = SCE_obj,
+    modelName = "Healthy_COVID19_PBMC.pkl",
+    runCelltypistUpdate = TRUE,
+    over_clustering = "leiden0.3",
+    returnAll = TRUE
+)
+
+#Save plot
+ProbabilityPlot <- SCE_obj$plot
+SCE_obj <- SCE_obj$SingleCellObject
+
+SCE_obj$annotation <- plyr::revalue(SCE_obj$leiden0.3, c(
+    `1` = "T_cells",
+    `2` = "T_cells",
+    `3` = "NK",
+    `4` = "B_cells",
+    `5` = "Monocytes",
+    `6` = "NK",
+    `7` = "T_cells",
+    `8` = "pDC"
+))
+
+ProbabilityPlot
+
+```
+
+
+
+## 1.4 Figure 1B - Barplot cell proportions
+
+```{r Figure1B-Barplotcellproportions, message=FALSE, warning=FALSE}
+DO.CellComposition(SCE_obj,
+    assay_normalized = "RNA",
+    cluster_column = "annotation",
+    sample_column = "orig.ident",
+    condition_column = "condition",
+    transform_method = "arcsin",
+    n_reps = 3
+)
+```
+
+## 1.5 Figure 1C - 3D Dotplot
+```{r Figure1C-3DDotplot, message=FALSE, warning=FALSE}
+DO.Dotplot(
+    sce_object = SCE_obj,
+    group.by.x = "condition",
+    group.by.y = "annotation",
+    Feature = "NKG7",
+    stats_x = TRUE,
+    stats_y = FALSE
+)
+```
+
+## 1.6 Figure 1C - Heatmap
+
+```{r Figure1C-Heatmap, message=FALSE, warning=FALSE}
+path_file <- tempfile("dotools_plots_")
+dir.create(path_file, recursive = TRUE, showWarnings = FALSE)
+
+DO.Heatmap(SCE_obj,
+    group_by = "annotation",
+    features = c("CD14", "CD79A", "CD8A", "NKG7"),
+    xticks_rotation = 45,
+    path = path_file,
+    stats_x_size = 20,
+    showP = FALSE
+)
+
+Heatmap_plot <- list.files(
+    path = path_file,
+    pattern = "Heatmap*\\.svg$",
+    full.names = TRUE,
+    recursive = TRUE
+)
+
+plot(magick::image_read_svg(Heatmap_plot))
+```
+
+## 1.7 Figure 1C - Barplot NKG7
+
+```{r Figure1C-BarplotNKG7, message=FALSE, warning=FALSE}
+DO.Barplot(SCE_obj,
+    group.by = "condition",
+    ctrl.condition = "healthy",
+    Feature = "NKG7",
+    test_use = "wilcox",
+    correction_method = "fdr",
+    x_label_rotation = 0,
+    bar_colours = c("sandybrown", "royalblue")
+)
+```
+
+## 1.8 Figure 1C - Split bar GSEA
+
+```{r Figure1C-SplitbarGSEA, message=FALSE, warning=FALSE}
+
+
+DGE_result <- DO.MultiDGE(SCE_obj,
+    sample_col = "orig.ident",
+    method_sc = "wilcox",
+    ident_ctrl = "healthy"
+)
+
+result_GO <- DO.enrichR(
+    df_DGE = DGE_result,
+    gene_column = "gene",
+    pval_column = "p_val_adj_SC_wilcox",
+    log2fc_column = "avg_log2FC_SC_wilcox",
+    pval_cutoff = 0.05,
+    log2fc_cutoff = 0.25,
+    path = NULL,
+    filename = "",
+    species = "Human",
+    go_catgs = "GO_Biological_Process_2023"
+)
+
+result_GO_sig <- result_GO[result_GO$Adjusted.P.value < 0.05, ]
+result_GO_sig$celltype <- ""
+
+DO.SplitBarGSEA(
+    df_GSEA = result_GO_sig,
+    term_col = "Term",
+    col_split = "Combined.Score",
+    cond_col = "State",
+    pos_cond = "enriched",
+    showP = FALSE,
+    path = paste0(base, "/")
+)
+GSEA_plot <- list.files(
+    path = base,
+    pattern = "SplitBar.*\\.svg$",
+    full.names = TRUE,
+    recursive = TRUE
+)
+plot(magick::image_read_svg(GSEA_plot))
+```
+
+# 2. Figure 2 - Split bar GSEA
+```{r Figure2-SplitbarGSEA, message=FALSE, warning=FALSE}
+
+DGE_result <- DO.MultiDGE(SCE_obj,
+    sample_col = "orig.ident",
+    method_sc = "wilcox",
+    ident_ctrl = "healthy"
+)
+
+result_GO <- DO.enrichR(
+    df_DGE = DGE_result,
+    gene_column = "gene",
+    pval_column = "p_val_adj_SC_wilcox",
+    log2fc_column = "avg_log2FC_SC_wilcox",
+    pval_cutoff = 0.05,
+    log2fc_cutoff = 0.25,
+    path = NULL,
+    filename = "",
+    species = "Human",
+    go_catgs = "GO_Biological_Process_2023"
+)
+
+result_GO_sig <- result_GO[result_GO$Adjusted.P.value < 0.05, ]
+result_GO_sig$celltype <- ""
+
+DO.SplitBarGSEA(
+    df_GSEA = result_GO_sig,
+    term_col = "Term",
+    col_split = "Combined.Score",
+    cond_col = "State",
+    pos_cond = "enriched",
+    showP = FALSE,
+    path = paste0(base, "/")
+)
+GSEA_plot <- list.files(
+    path = base,
+    pattern = "SplitBar.*\\.svg$",
+    full.names = TRUE,
+    recursive = TRUE
+)
+plot(magick::image_read_svg(GSEA_plot))
+```
+
+## 2.1 Figure 2C - ViolinPlot
+
+```{r Figure2C-ViolinPlot, message=FALSE, warning=FALSE}
+DO.VlnPlot(SCE_obj,
+    Feature = "NKG7",
+    group.by = "condition",
+    ctrl.condition = "healthy"
+)
+```
+
+# Session Information
+```{r SessionInformation}
+sessionInfo()
+```
+
